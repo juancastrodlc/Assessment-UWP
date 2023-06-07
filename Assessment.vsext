@@ -1,0 +1,212 @@
+{
+  "id": "21afb16a-3931-459c-937f-9db1bfdb53d6",
+  "name": "My Visual Studio extensions",
+  "description": "A collection of my Visual Studio extensions",
+  "version": "1.0",
+  "extensions": [
+    {
+      "name": "#Regions Are Evil",
+      "vsixId": "4B35EF3B-C2F5-4180-8936-25621C9E1EEA"
+    },
+    {
+      "name": "Align Assignments 2022",
+      "vsixId": "AlignAssignments2022.41858b2d-ff0b-4a43-80b0-f1b2d6084935"
+    },
+    {
+      "name": "AsyncFixer for Visual Studio 2022",
+      "vsixId": "AsyncFixer2022.edab5fce-e3aa-4fea-9d60-a07bc11d493b"
+    },
+    {
+      "name": "AutoToString",
+      "vsixId": "AutoToString..c9d7ec9c-371c-4dbe-8a66-ae2506d6361f"
+    },
+    {
+      "name": "C# Methods Code Snippets",
+      "vsixId": "e2abe71c-24a4-4e59-8cc1-8c7805afe23f"
+    },
+    {
+      "name": "Carnation2022",
+      "vsixId": "Carnation.3492aadc-ee5e-42f0-b92c-2f7cafdbbd94"
+    },
+    {
+      "name": "Code Cleanup On Save",
+      "vsixId": "66985471-b701-4851-a2d7-5a8bdce1e694"
+    },
+    {
+      "name": "Code Connections",
+      "vsixId": "CodeConnections.4af0cec0-ea71-4add-b06a-975b18ba7aed"
+    },
+    {
+      "name": "Code Snippet Studio",
+      "vsixId": "CodeSnippetStudio.7fca7ec2-55b3-4a23-822f-d68665ddd828"
+    },
+    {
+      "name": "CodeMaid VS2022",
+      "vsixId": "9079e73d-3fbb-4e07-8dab-f44fa5d8e8b5"
+    },
+    {
+      "name": "CodeTime",
+      "vsixId": "Software.569c24af-f7e5-4df6-b40a-157caa132d9c"
+    },
+    {
+      "name": "Codist",
+      "vsixId": "Codist.WMJ.c7b93d20-621f-4b21-9d28-d51157ef0b94"
+    },
+    {
+      "name": "Copy As Html 2022",
+      "vsixId": "CopyAsHtml2022.42374550-426a-400e-96f9-237682e8dea6"
+    },
+    {
+      "name": "CSharp Extended Templates",
+      "vsixId": "CSharpExtendedTemplates.4ea5e0fd-6fb2-4066-818f-de49df7a3490"
+    },
+    {
+      "name": "Don't Copy Always",
+      "vsixId": "DontCopyAlways.d38e1a6d-0c1c-4aab-bf12-2cc84406b005"
+    },
+    {
+      "name": "Double-Click Maximize 2022",
+      "vsixId": "DoubleClickMaximize2022.050825c2-33a4-4b7d-b3af-bd46bd99a265"
+    },
+    {
+      "name": "Fine Code Coverage",
+      "vsixId": "FineCodeCoverage2022.ad53fb28-7a11-4465-a27a-3550499ea4a1"
+    },
+    {
+      "name": "Fix Mixed Tabs 2022",
+      "vsixId": "FixMixedTabs2022.9f1d3050-b986-4b10-ae36-97c6efc5e968"
+    },
+    {
+      "name": "Format document on Save",
+      "vsixId": "2f4fac85-be4e-4d7a-8c74-93cc4389b427"
+    },
+    {
+      "name": "GhostDoc Community for VS2017 and Later",
+      "vsixId": "f646ea44-feb2-4168-802a-80c9b64bb8bb"
+    },
+    {
+      "name": "Hot Commands",
+      "vsixId": "e8175b11-0e09-42b5-9c3c-ba7bfb53a311"
+    },
+    {
+      "name": "Hot Settings",
+      "vsixId": "HotSettings.Justin Clareburt.9d7d4a40-2b7c-4177-82bf-1876951e6b24"
+    },
+    {
+      "name": "ILSpy 2022",
+      "vsixId": "ebf12ca7-a1fd-4aee-a894-4a0c5682fc2f"
+    },
+    {
+      "name": "IntelliSense Extender 2022",
+      "vsixId": "IntelliSenseExtender2022.Dreamescaper.6958f445-4769-47f7-885e-ba2505f1087a"
+    },
+    {
+      "name": "Json Formatter",
+      "vsixId": "3ec2976c-dff7-4c1c-b763-4122993c6de5"
+    },
+    {
+      "name": "JSON Viewer 2022",
+      "vsixId": "5D0AFDE4-ED81-468D-951D-314E639FD345"
+    },
+    {
+      "name": "Keyboard Shortcuts Manager",
+      "vsixId": "VSShortcutsManager.d8578b8b-cb70-49ee-b009-9e659c413f4b"
+    },
+    {
+      "name": "LightBDD for Visual Studio",
+      "vsixId": "fe1ca06b-95ef-41a1-8e09-fe903b2945a4"
+    },
+    {
+      "name": "Match Margin 2022",
+      "vsixId": "MatchMargin2022.d85a25b5-f7b3-46a9-997e-a2d669dc2c93"
+    },
+    {
+      "name": "Middle Click Scroll 2022",
+      "vsixId": "MiddleClickScroll2022.263a3239-a004-40e6-b790-4fd371832c85"
+    },
+    {
+      "name": "Mocking.Helpers",
+      "vsixId": "Mocking.Helpers.DC82BF19-0482-4D47-A1FF-7F4CBBAA44D4"
+    },
+    {
+      "name": "More Method Snippets for C#",
+      "vsixId": "MoreMethodSnippets.5b12273e-912a-4b72-9c52-e9ff9e476b13"
+    },
+    {
+      "name": "More Snippets for C#",
+      "vsixId": "MoreSnippets.0b15e12c-af0e-4f3c-a6f5-c5843046ad8f"
+    },
+    {
+      "name": "Move Type To File - 2022",
+      "vsixId": "VS2017.8015c581-31ee-4b02-802a-37dc73a3c7df"
+    },
+    {
+      "name": "Output enhancer",
+      "vsixId": "VSOutputEnhancer.Nikolay Balakin.a06be4c3-f97e-425c-8a0d-bdef08ac2abb"
+    },
+    {
+      "name": "Parallel Checker for C# 10 (VS 2022)",
+      "vsixId": "ConcurrencyLab.ParallelChecker.9812fea9-fb18-4715-ab6f-04a44db714d4"
+    },
+    {
+      "name": "Productivity Power Tools 2022",
+      "vsixId": "ProductivityPowerPack2022.0d5b9d71-e118-46de-a20c-555176e53900"
+    },
+    {
+      "name": "Productivity Power Tools Options Page 2022",
+      "vsixId": "PPTOptionsPage2022.666715a6-3ac4-4bb7-b538-4d7625f99666"
+    },
+    {
+      "name": "ResXManager",
+      "vsixId": "43b35fe0-1f30-48de-887a-68256474202a"
+    },
+    {
+      "name": "Roslynator 2022",
+      "vsixId": "f326ee1b-81a6-4577-b251-1f29d391cef3"
+    },
+    {
+      "name": "RunAsAdmin",
+      "vsixId": "dda2a29d-8fd9-4131-adc5-afcf6ef36b25"
+    },
+    {
+      "name": "Shrink Empty Lines 2022",
+      "vsixId": "SyntacticLineCompression2022.4452fb8f-b348-49eb-9499-76669d3f9c75"
+    },
+    {
+      "name": "Snippet Designer 2022",
+      "vsixId": "d21b0d98-7dad-421e-895e-424a0a4e6f0d"
+    },
+    {
+      "name": "Solution Error Visualizer 2022",
+      "vsixId": "SolutionErrorVisualizer2022.a392f96b-6b33-4b53-b4bb-3376a05f986c"
+    },
+    {
+      "name": "Template Studio for UWP",
+      "vsixId": "TemplateStudioForUWP.587647be-736e-4495-9a0f-d0d08148ee9b"
+    },
+    {
+      "name": "Time Stamp Margin 2022",
+      "vsixId": "TimeStampMargin2022.255e8b14-4a53-4eb7-89a7-7ab741c1f612"
+    },
+    {
+      "name": "Trailing Whitespace Visualizer",
+      "vsixId": "dac582ef-fc73-42f6-ad45-afaad93d88a4"
+    },
+    {
+      "name": "Trim Copy 2022",
+      "vsixId": "d802e0ae-2f4b-440d-ae20-62f2cf4f3592"
+    },
+    {
+      "name": "Tweaks 2022",
+      "vsixId": "0c8bd9fa-77d5-4563-ab57-9e01608c3d05"
+    },
+    {
+      "name": "Unit Test Boilerplate Generator",
+      "vsixId": "UnitTestBoilerplate.RandomEngy.ca0bb824-eb5a-41a8-ab39-3b81f03ba3fe"
+    },
+    {
+      "name": "Warn About TODOs",
+      "vsixId": "WarnAboutTODOs.c50458a5-b99a-484f-be10-f1a8714c1453"
+    }
+  ]
+}

@@ -1,51 +1,174 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\H332523\\source\\repos\\Assessment\\Assessment\\Assessment.csproj": {}
+    "C:\\Users\\aquil\\source\\repos\\Assessment-UWP\\Assessment\\Assessment.csproj": {}
   },
   "projects": {
-    "C:\\Users\\H332523\\source\\repos\\Assessment\\Assessment\\Assessment.csproj": {
+    "C:\\Users\\aquil\\source\\repos\\Assessment-UWP\\Assessment.Core\\Assessment.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\H332523\\source\\repos\\Assessment\\Assessment\\Assessment.csproj",
+        "projectUniqueName": "C:\\Users\\aquil\\source\\repos\\Assessment-UWP\\Assessment.Core\\Assessment.Core.csproj",
+        "projectName": "Assessment.Core",
+        "projectPath": "C:\\Users\\aquil\\source\\repos\\Assessment-UWP\\Assessment.Core\\Assessment.Core.csproj",
+        "packagesPath": "d:\\nuget-packages",
+        "outputPath": "C:\\Users\\aquil\\source\\repos\\Assessment-UWP\\Assessment.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\aquil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\aquil\\source\\nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "CommunityToolkit.Common": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            },
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite.Core": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "SQLitePCLRaw.bundle_e_sqlite3": {
+              "target": "Package",
+              "version": "[2.1.5, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\aquil\\source\\repos\\Assessment-UWP\\Assessment\\Assessment.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\aquil\\source\\repos\\Assessment-UWP\\Assessment\\Assessment.csproj",
         "projectName": "Assessment",
-        "projectPath": "C:\\Users\\H332523\\source\\repos\\Assessment\\Assessment\\Assessment.csproj",
-        "packagesPath": "C:\\Users\\H332523\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\H332523\\source\\repos\\Assessment\\Assessment\\obj\\",
+        "projectPath": "C:\\Users\\aquil\\source\\repos\\Assessment-UWP\\Assessment\\Assessment.csproj",
+        "packagesPath": "d:\\nuget-packages",
+        "outputPath": "C:\\Users\\aquil\\source\\repos\\Assessment-UWP\\Assessment\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\H332523\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aquil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "uap10.0.15063"
+          "uap10.0.18362"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\aquil\\source\\nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "uap10.0.15063": {
-            "projectReferences": {}
+          "uap10.0.18362": {
+            "projectReferences": {
+              "C:\\Users\\aquil\\source\\repos\\Assessment-UWP\\Assessment.Core\\Assessment.Core.csproj": {
+                "projectPath": "C:\\Users\\aquil\\source\\repos\\Assessment-UWP\\Assessment.Core\\Assessment.Core.csproj"
+              }
+            }
           }
         }
       },
       "frameworks": {
-        "uap10.0.15063": {
+        "uap10.0.18362": {
           "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            },
             "Microsoft.NETCore.UniversalWindowsPlatform": {
               "target": "Package",
               "version": "[6.2.14, )"
+            },
+            "Microsoft.Toolkit.Uwp.UI.Animations": {
+              "target": "Package",
+              "version": "[7.1.3, )"
+            },
+            "Microsoft.Toolkit.Uwp.UI.Controls": {
+              "target": "Package",
+              "version": "[7.1.3, )"
+            },
+            "Microsoft.UI.Xaml": {
+              "target": "Package",
+              "version": "[2.8.4, )"
+            },
+            "Microsoft.Xaml.Behaviors.Uwp.Managed": {
+              "target": "Package",
+              "version": "[2.0.1, )"
             }
-          }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
         }
       },
       "runtimes": {
