@@ -9,7 +9,6 @@
     xmlns:model="using:Assessment.Core.Models"
     xmlns:views="using:Assessment.Views"
     xmlns:behaviors="using:Assessment.Behaviors"
-    behaviors:NavigationViewHeaderBehavior.HeaderMode="Never"
     mc:Ignorable="d">
     <Page.Transitions>
         <TransitionCollection>
@@ -78,18 +77,18 @@
 
     <Grid x:Name="ContentArea">
         <VisualStateManager.VisualStateGroups>
-                <VisualStateGroup>
-                    <VisualState>
-                        <VisualState.StateTriggers>
-                            <!--641 is the default CompactModeThresholdWidth in NavigationView -->
-                            <AdaptiveTrigger MinWindowWidth="641" />
-                        </VisualState.StateTriggers>
-                        <VisualState.Setters>
-                            <Setter Target="ListDetailsViewControl.ListHeaderTemplate" Value="{StaticResource ListHeaderTemplate}" />
-                        </VisualState.Setters>
-                    </VisualState>
-                </VisualStateGroup>
-            </VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <!--641 is the default CompactModeThresholdWidth in NavigationView -->
+                        <AdaptiveTrigger MinWindowWidth="641" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="ListDetailsViewControl.ListHeaderTemplate" Value="{StaticResource ListHeaderTemplate}" />
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
         <controls:ListDetailsView
             x:Name="ListDetailsViewControl"
             x:Uid="ListDetails"

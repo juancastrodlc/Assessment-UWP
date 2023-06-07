@@ -69,6 +69,7 @@ namespace Assessment.Behaviors
             base.OnAttached();
             _current = this;
             NavigationService.Navigated += OnNavigated;
+
         }
 
         protected override void OnDetaching()
@@ -91,7 +92,7 @@ namespace Assessment.Behaviors
 
         private void UpdateHeader()
         {
-            if (_currentPage != null)
+            if (_currentPage != null && AssociatedObject != null)
             {
                 var headerMode = GetHeaderMode(_currentPage);
                 if (headerMode == NavigationViewHeaderMode.Never)
@@ -125,7 +126,7 @@ namespace Assessment.Behaviors
 
         private void UpdateHeaderTemplate()
         {
-            if (_currentPage != null)
+            if (_currentPage != null && AssociatedObject != null)
             {
                 var headerTemplate = GetHeaderTemplate(_currentPage);
                 AssociatedObject.HeaderTemplate = headerTemplate ?? DefaultHeaderTemplate;

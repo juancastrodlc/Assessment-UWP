@@ -1,6 +1,4 @@
-﻿using System;
-
-using Assessment.ViewModels;
+﻿using Assessment.ViewModels;
 
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
@@ -21,5 +19,7 @@ namespace Assessment.Views
         {
             await ViewModel.LoadDataAsync(ListDetailsViewControl.ViewState);
         }
+
+
     }
 }
