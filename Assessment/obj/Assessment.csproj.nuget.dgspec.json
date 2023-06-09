@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aquil\\source\\repos\\Assessment-UWP\\Assessment\\Assessment.csproj": {}
+    "C:\\Users\\H515682\\source\\repos\\Assessment-UWP\\Assessment\\Assessment.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aquil\\source\\repos\\Assessment-UWP\\Assessment.Core\\Assessment.Core.csproj": {
+    "C:\\Users\\H515682\\source\\repos\\Assessment-UWP\\Assessment.Core\\Assessment.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aquil\\source\\repos\\Assessment-UWP\\Assessment.Core\\Assessment.Core.csproj",
+        "projectUniqueName": "C:\\Users\\H515682\\source\\repos\\Assessment-UWP\\Assessment.Core\\Assessment.Core.csproj",
         "projectName": "Assessment.Core",
-        "projectPath": "C:\\Users\\aquil\\source\\repos\\Assessment-UWP\\Assessment.Core\\Assessment.Core.csproj",
-        "packagesPath": "d:\\nuget-packages",
-        "outputPath": "C:\\Users\\aquil\\source\\repos\\Assessment-UWP\\Assessment.Core\\obj\\",
+        "projectPath": "C:\\Users\\H515682\\source\\repos\\Assessment-UWP\\Assessment.Core\\Assessment.Core.csproj",
+        "packagesPath": "C:\\Users\\H515682\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\H515682\\source\\repos\\Assessment-UWP\\Assessment.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\aquil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\H515682\\source\\repos\\Assessment-UWP\\NuGet.Config",
+          "C:\\Users\\H515682\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +27,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\aquil\\source\\nuget": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\H515682\\source\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -71,6 +73,11 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
+            "Nerdbank.GitVersioning": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.6.133, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
@@ -95,18 +102,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\aquil\\source\\repos\\Assessment-UWP\\Assessment\\Assessment.csproj": {
+    "C:\\Users\\H515682\\source\\repos\\Assessment-UWP\\Assessment\\Assessment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aquil\\source\\repos\\Assessment-UWP\\Assessment\\Assessment.csproj",
+        "projectUniqueName": "C:\\Users\\H515682\\source\\repos\\Assessment-UWP\\Assessment\\Assessment.csproj",
         "projectName": "Assessment",
-        "projectPath": "C:\\Users\\aquil\\source\\repos\\Assessment-UWP\\Assessment\\Assessment.csproj",
-        "packagesPath": "d:\\nuget-packages",
-        "outputPath": "C:\\Users\\aquil\\source\\repos\\Assessment-UWP\\Assessment\\obj\\",
+        "projectPath": "C:\\Users\\H515682\\source\\repos\\Assessment-UWP\\Assessment\\Assessment.csproj",
+        "packagesPath": "C:\\Users\\H515682\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\H515682\\source\\repos\\Assessment-UWP\\Assessment\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -114,7 +121,8 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\aquil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\H515682\\source\\repos\\Assessment-UWP\\NuGet.Config",
+          "C:\\Users\\H515682\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -123,14 +131,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\aquil\\source\\nuget": {},
+          "C:\\Users\\H515682\\source\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "uap10.0.18362": {
             "projectReferences": {
-              "C:\\Users\\aquil\\source\\repos\\Assessment-UWP\\Assessment.Core\\Assessment.Core.csproj": {
-                "projectPath": "C:\\Users\\aquil\\source\\repos\\Assessment-UWP\\Assessment.Core\\Assessment.Core.csproj"
+              "C:\\Users\\H515682\\source\\repos\\Assessment-UWP\\Assessment.Core\\Assessment.Core.csproj": {
+                "projectPath": "C:\\Users\\H515682\\source\\repos\\Assessment-UWP\\Assessment.Core\\Assessment.Core.csproj"
               }
             }
           }
@@ -162,6 +170,15 @@
             "Microsoft.Xaml.Behaviors.Uwp.Managed": {
               "target": "Package",
               "version": "[2.0.1, )"
+            },
+            "Nerdbank.GitVersioning": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.6.133, )"
+            },
+            "SimpleInjector": {
+              "target": "Package",
+              "version": "[5.4.1, )"
             }
           },
           "imports": [
