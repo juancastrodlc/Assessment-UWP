@@ -207,3 +207,4 @@ C:\Users\H515682\source\repos\Assessment-UWP\Assessment\obj\x86\Debug\ProjectArc
 C:\Users\H515682\source\repos\Assessment-UWP\Assessment\obj\x86\Debug\.winmd_cache\$Microsoft.Graphics.Canvas.winmd_637214534760000000.json
 C:\Users\H515682\source\repos\Assessment-UWP\Assessment\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637425031200000000.json
 C:\Users\H515682\source\repos\Assessment-UWP\Assessment\obj\x86\Debug\.winmd_cache\$Microsoft.Web.WebView2.Core.winmd_637920505780000000.json
+C:\Users\H515682\source\repos\Assessment-UWP\Assessment\bin\x86\Debug\Ulid.dll

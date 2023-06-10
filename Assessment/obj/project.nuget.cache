@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fN4LfKN92IJ+WT/fruhYnSUx4jUB0kN0CkoTfrn3Xfnj6NUC2p217q53Fhh9p9MK8i1fgh9tgjfYyxs3tI/Q4A==",
+  "dgSpecHash": "Z0QWpDlOZ9aRTV2e6WUiTDnet1X3Wbw1WOzFriTkMHO1BGxPM0M946trcByKqtVkp5pW3vY8e32rXj9j2Kl3yw==",
   "success": true,
   "projectFilePath": "C:\\Users\\H515682\\source\\repos\\Assessment-UWP\\Assessment\\Assessment.csproj",
   "expectedPackageFiles": [
@@ -95,6 +95,7 @@
     "C:\\Users\\H515682\\.nuget\\packages\\system.text.encodings.web\\5.0.1\\system.text.encodings.web.5.0.1.nupkg.sha512",
     "C:\\Users\\H515682\\.nuget\\packages\\system.text.json\\5.0.2\\system.text.json.5.0.2.nupkg.sha512",
     "C:\\Users\\H515682\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "C:\\Users\\H515682\\.nuget\\packages\\ulid\\1.2.6\\ulid.1.2.6.nupkg.sha512",
     "C:\\Users\\H515682\\.nuget\\packages\\win2d.uwp\\1.25.0\\win2d.uwp.1.25.0.nupkg.sha512"
   ],
   "logs": []

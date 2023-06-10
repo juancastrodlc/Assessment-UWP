@@ -69,7 +69,6 @@ namespace Assessment.Behaviors
             base.OnAttached();
             _current = this;
             NavigationService.Navigated += OnNavigated;
-
         }
 
         protected override void OnDetaching()

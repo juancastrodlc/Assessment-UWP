@@ -31,11 +31,11 @@
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" />
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
       </uap:VisualElements>
-      <Extensions></Extensions>
     </Application>
   </Applications>
   <Capabilities>
     <Capability Name="internetClient" />
+    <uap:Capability Name="picturesLibrary" />
   </Capabilities>
   <genTemplate:Metadata>
     <genTemplate:Item Name="generator" Value="Template Studio" />

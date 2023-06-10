@@ -62,8 +62,11 @@
       <RootProperty Name="Background" />
       <RootProperty Name="ColumnDefinitions" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="RowDefinitions" />
       <RootMethod Name="GetColumn" />
       <RootMethod Name="SetColumn" />
+      <RootMethod Name="GetRowSpan" />
+      <RootMethod Name="SetRowSpan" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.FlipView">
       <RootProperty Name="ItemsSource" />
@@ -202,6 +205,9 @@
     <RootType FullName="Assessment.Behaviors.NavigationViewHeaderBehavior">
       <RootProperty Name="DefaultHeader" />
       <RootProperty Name="DefaultHeaderTemplate" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
+      <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Frame" />
     <RootType FullName="Assessment.Views.ShellPage" />

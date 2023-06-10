@@ -1676,6 +1676,23 @@
           }
         }
       },
+      "Ulid/1.2.6": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.2",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Ulid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Ulid.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Win2D.uwp/1.25.0": {
         "type": "package",
         "compile": {
@@ -1721,7 +1738,8 @@
           "Microsoft.EntityFrameworkCore.Sqlite.Core": "3.1.32",
           "Newtonsoft.Json": "13.0.3",
           "SQLitePCLRaw.bundle_e_sqlite3": "2.1.5",
-          "System.Configuration.ConfigurationManager": "7.0.0"
+          "System.Configuration.ConfigurationManager": "7.0.0",
+          "Ulid": "1.2.6"
         },
         "compile": {
           "bin/placeholder/Assessment.Core.dll": {}
@@ -3489,6 +3507,23 @@
           }
         }
       },
+      "Ulid/1.2.6": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.2",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Ulid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Ulid.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Win2D.uwp/1.25.0": {
         "type": "package",
         "compile": {
@@ -3519,7 +3554,8 @@
           "Microsoft.EntityFrameworkCore.Sqlite.Core": "3.1.32",
           "Newtonsoft.Json": "13.0.3",
           "SQLitePCLRaw.bundle_e_sqlite3": "2.1.5",
-          "System.Configuration.ConfigurationManager": "7.0.0"
+          "System.Configuration.ConfigurationManager": "7.0.0",
+          "Ulid": "1.2.6"
         },
         "compile": {
           "bin/placeholder/Assessment.Core.dll": {}
@@ -5288,6 +5324,23 @@
           }
         }
       },
+      "Ulid/1.2.6": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.2",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Ulid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Ulid.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Win2D.uwp/1.25.0": {
         "type": "package",
         "compile": {
@@ -5318,7 +5371,8 @@
           "Microsoft.EntityFrameworkCore.Sqlite.Core": "3.1.32",
           "Newtonsoft.Json": "13.0.3",
           "SQLitePCLRaw.bundle_e_sqlite3": "2.1.5",
-          "System.Configuration.ConfigurationManager": "7.0.0"
+          "System.Configuration.ConfigurationManager": "7.0.0",
+          "Ulid": "1.2.6"
         },
         "compile": {
           "bin/placeholder/Assessment.Core.dll": {}
@@ -7090,6 +7144,23 @@
           }
         }
       },
+      "Ulid/1.2.6": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.2",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Ulid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Ulid.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Win2D.uwp/1.25.0": {
         "type": "package",
         "compile": {
@@ -7120,7 +7191,8 @@
           "Microsoft.EntityFrameworkCore.Sqlite.Core": "3.1.32",
           "Newtonsoft.Json": "13.0.3",
           "SQLitePCLRaw.bundle_e_sqlite3": "2.1.5",
-          "System.Configuration.ConfigurationManager": "7.0.0"
+          "System.Configuration.ConfigurationManager": "7.0.0",
+          "Ulid": "1.2.6"
         },
         "compile": {
           "bin/placeholder/Assessment.Core.dll": {}
@@ -8891,6 +8963,23 @@
           }
         }
       },
+      "Ulid/1.2.6": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.2",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Ulid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Ulid.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Win2D.uwp/1.25.0": {
         "type": "package",
         "compile": {
@@ -8921,7 +9010,8 @@
           "Microsoft.EntityFrameworkCore.Sqlite.Core": "3.1.32",
           "Newtonsoft.Json": "13.0.3",
           "SQLitePCLRaw.bundle_e_sqlite3": "2.1.5",
-          "System.Configuration.ConfigurationManager": "7.0.0"
+          "System.Configuration.ConfigurationManager": "7.0.0",
+          "Ulid": "1.2.6"
         },
         "compile": {
           "bin/placeholder/Assessment.Core.dll": {}
@@ -10693,6 +10783,23 @@
           }
         }
       },
+      "Ulid/1.2.6": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.2",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Ulid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Ulid.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Win2D.uwp/1.25.0": {
         "type": "package",
         "compile": {
@@ -10723,7 +10830,8 @@
           "Microsoft.EntityFrameworkCore.Sqlite.Core": "3.1.32",
           "Newtonsoft.Json": "13.0.3",
           "SQLitePCLRaw.bundle_e_sqlite3": "2.1.5",
-          "System.Configuration.ConfigurationManager": "7.0.0"
+          "System.Configuration.ConfigurationManager": "7.0.0",
+          "Ulid": "1.2.6"
         },
         "compile": {
           "bin/placeholder/Assessment.Core.dll": {}
@@ -12494,6 +12602,23 @@
           }
         }
       },
+      "Ulid/1.2.6": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.2",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Ulid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Ulid.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Win2D.uwp/1.25.0": {
         "type": "package",
         "compile": {
@@ -12524,7 +12649,8 @@
           "Microsoft.EntityFrameworkCore.Sqlite.Core": "3.1.32",
           "Newtonsoft.Json": "13.0.3",
           "SQLitePCLRaw.bundle_e_sqlite3": "2.1.5",
-          "System.Configuration.ConfigurationManager": "7.0.0"
+          "System.Configuration.ConfigurationManager": "7.0.0",
+          "Ulid": "1.2.6"
         },
         "compile": {
           "bin/placeholder/Assessment.Core.dll": {}
@@ -14296,6 +14422,23 @@
           }
         }
       },
+      "Ulid/1.2.6": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.2",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Ulid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Ulid.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Win2D.uwp/1.25.0": {
         "type": "package",
         "compile": {
@@ -14326,7 +14469,8 @@
           "Microsoft.EntityFrameworkCore.Sqlite.Core": "3.1.32",
           "Newtonsoft.Json": "13.0.3",
           "SQLitePCLRaw.bundle_e_sqlite3": "2.1.5",
-          "System.Configuration.ConfigurationManager": "7.0.0"
+          "System.Configuration.ConfigurationManager": "7.0.0",
+          "Ulid": "1.2.6"
         },
         "compile": {
           "bin/placeholder/Assessment.Core.dll": {}
@@ -20544,6 +20688,26 @@
         "system.threading.tasks.extensions.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "Ulid/1.2.6": {
+      "sha512": "TDfJ/q4nJJ7LTxHErWYXRFs7laAUJhnT7Do+fpxxNg+uQOC1GKWLFuyJMKyMyIxQhFjWNC5XcFbr7R6HP9PFgw==",
+      "type": "package",
+      "path": "ulid/1.2.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net5.0/Ulid.dll",
+        "lib/net5.0/Ulid.xml",
+        "lib/netcoreapp2.1/Ulid.dll",
+        "lib/netcoreapp2.1/Ulid.xml",
+        "lib/netcoreapp3.1/Ulid.dll",
+        "lib/netcoreapp3.1/Ulid.xml",
+        "lib/netstandard2.0/Ulid.dll",
+        "lib/netstandard2.0/Ulid.xml",
+        "ulid.1.2.6.nupkg.sha512",
+        "ulid.nuspec"
       ]
     },
     "Win2D.uwp/1.25.0": {

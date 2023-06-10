@@ -7,18 +7,12 @@ namespace Assessment.Core.Helpers
     {
         public static Task<T> ToObjectAsync<T>(string value)
         {
-            return Task.Run<T>(() =>
-            {
-                return JsonConvert.DeserializeObject<T>(value);
-            });
+            return Task.Run(() => JsonConvert.DeserializeObject<T>(value));
         }
 
         public static async Task<string> StringifyAsync(object value)
         {
-            return await Task.Run<string>(() =>
-            {
-                return JsonConvert.SerializeObject(value);
-            });
+            return await Task.Run(() => JsonConvert.SerializeObject(value));
         }
     }
 }

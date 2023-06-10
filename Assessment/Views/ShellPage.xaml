@@ -56,7 +56,11 @@
             </ic:EventTriggerBehavior>
         </i:Interaction.Behaviors>
         <Grid>
-            <Frame x:Name="shellFrame" />
+            <Grid.RowDefinitions>
+                <RowDefinition Height="105*"/>
+                <RowDefinition Height="662*"/>
+            </Grid.RowDefinitions>
+            <Frame x:Name="shellFrame" Grid.RowSpan="2" />
         </Grid>
     </winui:NavigationView>
 </Page>

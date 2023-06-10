@@ -19,7 +19,6 @@ namespace Assessment.ViewModels
     {
         private readonly KeyboardAccelerator _altLeftKeyboardAccelerator = BuildKeyboardAccelerator(VirtualKey.Left, VirtualKeyModifiers.Menu);
         private readonly KeyboardAccelerator _backKeyboardAccelerator = BuildKeyboardAccelerator(VirtualKey.GoBack);
-
         private bool _isBackEnabled;
         private IList<KeyboardAccelerator> _keyboardAccelerators;
         private WinUI.NavigationView _navigationView;

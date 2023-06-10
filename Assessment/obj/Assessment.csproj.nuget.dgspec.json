@@ -89,6 +89,10 @@
             "System.Configuration.ConfigurationManager": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Ulid": {
+              "target": "Package",
+              "version": "[1.2.6, )"
             }
           },
           "imports": [
